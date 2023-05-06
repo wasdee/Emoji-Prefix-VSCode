@@ -1,17 +1,17 @@
 {
-	"name": "emoji-log-vscode",
-	"displayName": "Emoji Log",
-	"description": "Emoji-Log — An Emoji Git commit log messages spec standard. [ 📦👌🐛📖🚀🤖 ‼️ ].",
+	"name": "emoji-prefix-vscode",
+	"displayName": "Emoji Prefix",
+	"description": "Emoji Prefix: Create Prefix Log git commit message [📦👌🐛🚀📝🤖⚠️]",
 	"version": "1.3.0",
 	"author": {
-		"name": "Ahmad Awais",
-		"email": "me@AhmadAwais.com"
+		"name": "Nutchanon Ninyawee",
+		"email": "me@nutchanon.org"
 	},
-	"publisher": "ahmadawais",
+	"publisher": "NutchanonNinyawee",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ahmadawais/Emoji-Log-VSCode"
+		"url": "https://github.com/wasdee/Emoji-Prefix-VSCode"
 	},
 	"engines": {
 		"vscode": "^1.75.0"
@@ -32,14 +32,14 @@
 	],
 	"icon": "images/icon.png",
 	"activationEvents": [
-		"onCommand:extension.EmojiLog"
+		"onCommand:extension.EmojiPrefix"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.EmojiLog",
-				"title": "Emoji Log: Create Emoji Log git commit message [📦👌🐛📖🚀🤖 ‼️]",
+				"command": "extension.EmojiPrefix",
+				"title": "Emoji Prefix: Create Prefix Log git commit message [📦👌🐛🚀📝🤖⚠️]",
 				"icon": {
 					"dark": "images/icon_dark.svg",
 					"light": "images/icon_light.svg"
@@ -50,7 +50,7 @@
 			"scm/title": [
 				{
 					"when": "scmProvider == git",
-					"command": "extension.EmojiLog",
+					"command": "extension.EmojiPrefix",
 					"group": "navigation"
 				}
 			]

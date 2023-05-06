@@ -3,7 +3,7 @@ import { GitExtension, Repository } from './api/git';
 import EmojiLog from './EmojiLog/EmojiLog';
 
 export function activate(context: vscode.ExtensionContext) {
-	let disposable = vscode.commands.registerCommand('extension.EmojiLog', (uri?) => {
+	let disposable = vscode.commands.registerCommand('extension.EmojiPrefix', (uri?) => {
 		const git = getGitExtension();
 
 		if (!git) {
@@ -58,4 +58,4 @@ function getGitExtension() {
 	return gitExtension && gitExtension.getAPI(1);
 }
 
-export function deactivate() {}
+export function deactivate() { }
