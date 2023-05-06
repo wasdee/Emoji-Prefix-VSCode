@@ -49,7 +49,6 @@ After building [hundreds of open source software](https://github.com/ahmadawais)
 3. Click **Install** to install it.
 4. 🌟 [Rate five-stars](https://marketplace.visualstudio.com/items?itemName=ahmadawais.emoji-log-vscode&ssr=false#review-details).
 
-
 <br>
 
 ![Philosophy](https://user-images.githubusercontent.com/960133/120058283-3ea18480-c063-11eb-8a62-8146227093fa.png)
@@ -66,7 +65,7 @@ I like emoji. I like ’em a lot. Programming, code, geeks/nerds, open-source, a
 1. **RULES** ↓
     - A small number of categories — easy to memorize.
     - Nothing more nothing less.
-    - E.g. `📦 NEW`, `👌 IMPROVE`, `🐛 FIX`, `📖 DOC`, `🚀 RELEASE`, `🤖 TEST`, and `‼️ BREAKING`
+    - E.g. `🌟ADD`, `💡IMPROVE`, `🐛FIX`, `📝NOTE`, `🚀RELEASE`, `🤖TEST`, and `⚠️BREAK`
 1. **ACTIONS** ↓
     - Make git commits based on the actions you take.
     - Use a good editor like [VSCode](https://code.visualstudio.com/) to commit the right files with commit messages.
@@ -79,33 +78,33 @@ I like emoji. I like ’em a lot. Programming, code, geeks/nerds, open-source, a
 
 Only use the following Git Commit Messages. A simple and small footprint is critical here.
 
-1. `📦 NEW: IMPERATIVE_MESSAGE_GOES_HERE`
+1. `🌟ADD: IMPERATIVE_MESSAGE_GOES_HERE`
     > Use when you add something entirely new.
-    > E.g. `📦 NEW: Add Git ignore file`
+    > E.g. `🌟ADD: Add Git ignore file`
 
-1. `👌 IMPROVE: IMPERATIVE_MESSAGE_GOES_HERE`
+1. `💡IMPROVE: IMPERATIVE_MESSAGE_GOES_HERE`
     > Use when you improve/enhance piece of code like refactoring etc.
-    > E.g. `👌 IMPROVE: Remote IP API Function`
+    > E.g. `💡IMPROVE: Remote IP API Function`
 
-1. `🐛 FIX: IMPERATIVE_MESSAGE_GOES_HERE`
+1. `🐛FIX: IMPERATIVE_MESSAGE_GOES_HERE`
     > Use when you fix a bug — need I say more?
-    > E.g. `🐛 FIX: Case conversion`
+    > E.g. `🐛FIX: Case conversion`
 
-1. `📖 DOC: IMPERATIVE_MESSAGE_GOES_HERE`
+1. `📝NOTE: IMPERATIVE_MESSAGE_GOES_HERE`
     > Use when you add documentation like `README.md`, or even inline docs.
-    > E.g. `📖 DOC: API Interface Tutorial`
+    > E.g. `📝NOTE: API Interface Tutorial`
 
-1. `🚀 RELEASE: IMPERATIVE_MESSAGE_GOES_HERE`
+1. `🚀RELEASE: IMPERATIVE_MESSAGE_GOES_HERE`
     > Use when you release a new version.
-    > E.g. `🚀 RELEASE: Version 2.0.0`
+    > E.g. `🚀RELEASE: Version 2.0.0`
 
-1. `🤖 TEST: IMPERATIVE_MESSAGE_GOES_HERE`
+1. `🤖TEST: IMPERATIVE_MESSAGE_GOES_HERE`
     > Use when it's related to testing.
-    > E.g. `🤖 TEST: Mock User Login/Logout`
+    > E.g. `🤖TEST: Mock User Login/Logout`
 
-1. `‼️ BREAKING: IMPERATIVE_MESSAGE_GOES_HERE`
+1. `⚠️BREAK: IMPERATIVE_MESSAGE_GOES_HERE`
     > Use when releasing a change that breaks previous versions.
-    > E.g. `‼️ BREAKING: Change authentication protocol`
+    > E.g. `⚠️BREAK: Change authentication protocol`
 
 _— That's it for now. Nothing more nothing less._
 
@@ -117,13 +116,13 @@ _— That's it for now. Nothing more nothing less._
 
 I'd like to share what each of these emojis mean.
 
-- `📦 NEW:` Emoji meaning: A "package emoji" — which can contain new stuff.
-- `👌 IMPROVE:` Emoji meaning: An "OK Hand emoji" — which is meant to appreciate an improvement.
-- `🐛 FIX:` Emoji meaning: A "bug emoji" — which means there was a bug that got fixed.
-- `📖 DOCS:` Emoji meaning: A "book emoji" — which means documentation or notes just like in a book.
-- `🚀 RELEASE:` Emoji meaning: A "rocket emoji" — which is meant to show a new release/launch.
-- `🤖 TEST:` Emoji meaning: A "robot emoji" — which says some test were run successfully.
-- `‼️ BREAKING:` Emoji meaning: A "bangbang emoji" — which attracts attention to a breaking change.
+- `🌟ADD:` Emoji meaning: A "package emoji" — which can contain new stuff.
+- `💡IMPROVE:` Emoji meaning: An "OK Hand emoji" — which is meant to appreciate an improvement.
+- `🐛FIX:` Emoji meaning: A "bug emoji" — which means there was a bug that got fixed.
+- `📝NOTES:` Emoji meaning: A "book emoji" — which means documentation or notes just like in a book.
+- `🚀RELEASE:` Emoji meaning: A "rocket emoji" — which is meant to show a new release/launch.
+- `🤖TEST:` Emoji meaning: A "robot emoji" — which says some test were run successfully.
+- `⚠️BREAK:` Emoji meaning: A "bangbang emoji" — which attracts attention to a breaking change.
 
 ##### VSCode Extension
 
@@ -144,48 +143,48 @@ gcap() {
 
 # NEW.
 gnew() {
-    gcap "📦 NEW: $@"
+    gcap "🌟ADD: $@"
 }
 
 # IMPROVE.
 gimp() {
-    gcap "👌 IMPROVE: $@"
+    gcap "💡IMPROVE: $@"
 }
 
 # FIX.
 gfix() {
-    gcap "🐛 FIX: $@"
+    gcap "🐛FIX: $@"
 }
 
 # RELEASE.
 grlz() {
-    gcap "🚀 RELEASE: $@"
+    gcap "🚀RELEASE: $@"
 }
 
 # DOC.
 gdoc() {
-    gcap "📖 DOC: $@"
+    gcap "📝NOTE: $@"
 }
 
 # TEST.
 gtst() {
-    gcap "🤖 TEST: $@"
+    gcap "🤖TEST: $@"
 }
 
 # BREAKING CHANGE.
 gbrk() {
-    gcap "‼️ BREAKING: $@"
+    gcap "⚠️BREAK: $@"
 }
 gtype() {
 NORMAL='\033[0;39m'
 GREEN='\033[0;32m'
-echo "$GREEN gnew$NORMAL — 📦 NEW
-$GREEN gimp$NORMAL — 👌 IMPROVE
-$GREEN gfix$NORMAL — 🐛 FIX
-$GREEN grlz$NORMAL — 🚀 RELEASE
-$GREEN gdoc$NORMAL — 📖 DOC
+echo "$GREEN gnew$NORMAL — 🌟ADD
+$GREEN gimp$NORMAL — 💡IMPROVE
+$GREEN gfix$NORMAL — 🐛FIX
+$GREEN grlz$NORMAL — 🚀RELEASE
+$GREEN gdoc$NORMAL — 📝NOTE
 $GREEN gtst$NORMAL — 🧪️ TEST
-$GREEN gbrk$NORMAL — ‼️ BREAKING"
+$GREEN gbrk$NORMAL — ⚠️BREAK"
 }
 ```
 
@@ -195,13 +194,13 @@ To install these functions for the fish shell, run the following commands:
 
 ```sh
 function gcap; git add .; and git commit -m "$argv"; and git push; end;
-function gnew; gcap "📦 NEW: $argv"; end
-function gimp; gcap "👌 IMPROVE: $argv"; end;
-function gfix; gcap "🐛 FIX: $argv"; end;
-function grlz; gcap "🚀 RELEASE: $argv"; end;
-function gdoc; gcap "📖 DOC: $argv"; end;
-function gtst; gcap "🤖 TEST: $argv"; end;
-function gbrk; gcap "‼️ BREAKING: $argv"; end;
+function gnew; gcap "🌟ADD: $argv"; end
+function gimp; gcap "💡IMPROVE: $argv"; end;
+function gfix; gcap "🐛FIX: $argv"; end;
+function grlz; gcap "🚀RELEASE: $argv"; end;
+function gdoc; gcap "📝NOTE: $argv"; end;
+function gtst; gcap "🤖TEST: $argv"; end;
+function gbrk; gcap "⚠️BREAK: $argv"; end;
 funcsave gcap
 funcsave gnew
 funcsave gimp
@@ -223,19 +222,19 @@ If you prefer, you can paste these aliases directly in your `~/.gitconfig` file:
   cap = "!f() { git add .; git commit -m \"$@\"; git push; }; f"
 
   # NEW.
-  new = "!f() { git cap \"📦 NEW: $@\"; }; f"
+  new = "!f() { git cap \"🌟ADD: $@\"; }; f"
   # IMPROVE.
-  imp = "!f() { git cap \"👌 IMPROVE: $@\"; }; f"
+  imp = "!f() { git cap \"💡IMPROVE: $@\"; }; f"
   # FIX.
-  fix = "!f() { git cap \"🐛 FIX: $@\"; }; f"
+  fix = "!f() { git cap \"🐛FIX: $@\"; }; f"
   # RELEASE.
-  rlz = "!f() { git cap \"🚀 RELEASE: $@\"; }; f"
+  rlz = "!f() { git cap \"🚀RELEASE: $@\"; }; f"
   # DOC.
-  doc = "!f() { git cap \"📖 DOC: $@\"; }; f"
+  doc = "!f() { git cap \"📝NOTE: $@\"; }; f"
   # TEST.
-  tst = "!f() { git cap \"🤖 TEST: $@\"; }; f"
+  tst = "!f() { git cap \"🤖TEST: $@\"; }; f"
   # BREAKING CHANGE.
-  brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
+  brk = "!f() { git cap \"⚠️BREAK: $@\"; }; f"
 ```
 
 <br>
@@ -271,13 +270,13 @@ This will give the following text expander keywords for the Emoji-Log:
 
 | Keyword |   Snippet    |
 | ------- | ------------ |
-| `;gnew` | 📦 NEW:      |
-| `;gimp` | 👌 IMPROVE:  |
-| `;gfix` | 🐛 FIX:      |
-| `;grlz` | 🚀 RELEASE:  |
-| `;gdoc` | 📖 DOC:      |
-| `;gtst` | 🤖 TEST:     |
-| `;gbrk` | ‼️ BREAKING:  |
+| `;gnew` | 🌟ADD:      |
+| `;gimp` | 💡IMPROVE:  |
+| `;gfix` | 🐛FIX:      |
+| `;grlz` | 🚀RELEASE:  |
+| `;gdoc` | 📝NOTE:      |
+| `;gtst` | 🤖TEST:     |
+| `;gbrk` | ⚠️BREAK:  |
 
 To edit the `;` prefix to your preferred expansion flag, double click right click the Emoji-Log Collection in _Alfred Settings » Features » Snippets_.
 
@@ -320,7 +319,6 @@ Me ([Ahmad Awais](https://twitter.com/mrahmadawais/)) and my incredible wife ([M
 
 ## Connect
 
-
 <div align="left"><p><a href="https://nodecli.com/?utm_source=github.com/ahmadawais&utm_medium=referral&utm_campaign=profile"><img alt="NodeCLI.com" align="center" src="https://img.shields.io/badge/LEARN-Node%20CLI%20Automation%20-gray.svg?colorA=596577&colorB=6A788D&style=for-the-badge" /></a>&nbsp; <strong>IMP:</strong> I'm teaching developers how to automate their work and life with JavaScript
 </p></div>
 
@@ -344,7 +342,3 @@ Me ([Ahmad Awais](https://twitter.com/mrahmadawais/)) and my incredible wife ([M
 [n]: https://NodeCLI.com?utm_source=github.com/ahmadawais&utm_medium=referral&utm_campaign=profile
 [v]: https://VSCode.pro?utm_source=github.com/ahmadawais&utm_medium=referral&utm_campaign=profile
 [d]: https://DenoBeginner.com?utm_source=github.com/ahmadawais&utm_medium=referral&utm_campaign=profile
-[g]: https://github.com/AhmadAwais
-
-
-[course]: https://VSCode.pro/?utm_source=EmojiLogVSCode

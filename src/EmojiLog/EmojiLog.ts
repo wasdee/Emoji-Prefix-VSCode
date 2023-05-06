@@ -5,31 +5,31 @@ interface Emoji {
 
 let EmojiLog: Array<Emoji> = [
 	{
-		emoji: '📦 NEW:',
+		emoji: '🌟ADD:',
 		description: 'Add something entirely new.',
 	},
 	{
-		emoji: '👌 IMPROVE:',
+		emoji: '💡IMPROVE:',
 		description: 'Improve piece of code like refactoring.',
 	},
 	{
-		emoji: '🐛 FIX:',
+		emoji: '🐛FIX:',
 		description: 'Fix a bug — need I say more?',
 	},
 	{
-		emoji: '📖 DOC:',
+		emoji: '📝NOTE:',
 		description: 'Anything documentation related.',
 	},
 	{
-		emoji: '🚀 RELEASE:',
+		emoji: '🚀RELEASE:',
 		description: 'Release a new version.',
 	},
 	{
-		emoji: '🤖 TEST:',
+		emoji: '🤖TEST:',
 		description: 'Testing related commits.',
 	},
 	{
-		emoji: '‼️ BREAKING:',
+		emoji: '⚠️BREAK:',
 		description: 'Change that breaks previous versions.',
 	},
 ];
